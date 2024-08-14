@@ -84,6 +84,7 @@
 
 table{
   margin-left: 80px;
+  
 }
 .courses
 {
@@ -147,7 +148,7 @@ table{
 }
 
 h3{
-  margin-left: 5%;
+  padding: 10px;
 }
 
 
@@ -268,19 +269,19 @@ h3{
     
         
 
- <br><br> <B> PICK A DATE :&nbsp;</B> <input type="date" name="" id=""><br><br>
+ <center><br><br><B> PICK A DATE :&nbsp;</B> <input type="date" style="padding: 10px;"><br><br><br><br></center>
   <div class="4" data-aos="fade-up" data-aos-delay="0" style="display: flex;">
-   <form action="" style="margin-left: 130PX; box-shadow: 0px 0px 7px 7px; width: 15%;">
-   <h3>FILTER <i class="fa fa-filter" style="font-size:24px"></i></h3>
+   <form action="" style="margin-left: 130PX;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 15%; ">
+<h3 style="color:white; text-align: center;" class="bg-dark">FILTER <i class="fa fa-filter" style="font-size:24px"></i></h3><br><nbsp></nbsp>
    <div class="filterdata">
-<label for="">COURSES :</label><BR>
+<label for="" style="font-weight:900;">COURSES :</label><BR>
   <div class="courses">
   <td><input type="checkbox" name="COURSES1" class="attendance-checkbox"> FSD</td> </BR>
   <td><input type="checkbox" name="COURSES2" class="attendance-checkbox"> TALLY</td><br>
   <td><input type="checkbox" name="COURSES3" class="attendance-checkbox"> ANIMATION</td><br>
 </div><br>
 
-<label for="">BATCH : </label><BR>
+<label for="" style="font-weight:900;">BATCH : </label><BR>
   <div class="courses">
   <td><input type="checkbox" name="BATCH" class="attendance-checkbox"> 9-11 AM</td> </BR>
   <td><input type="checkbox" name="BATCH2" class="attendance-checkbox"> 11-1 PM</td><br>
@@ -291,7 +292,7 @@ h3{
 <button class="button-26" role="button">APPLY</button>
    </form>
  
-    <table style="width: 50%; border: 1px black solid;" class="table">
+    <table style="width: 56%; border: 1px black solid;" class="table">
     <thead class="thead-dark">
       <tr>
         <th scope="col">S.NO</th>  
@@ -373,43 +374,8 @@ h3{
   <td><input type="checkbox" name="attendance2" class="attendance-checkbox"></td>
   <td><input type="checkbox" name="attendance3" class="attendance-checkbox"></td>
 
-</tr><tr class="attendance-row">
-  <th scope="row">2</th>
-  <td>ARUN</td>
-  <td>FSD</td>
-  <td>10-4</td>
-  <td><input type="checkbox" name="attendance1" class="attendance-checkbox"></td>
-  <td><input type="checkbox" name="attendance2" class="attendance-checkbox"></td>
-  <td><input type="checkbox" name="attendance3" class="attendance-checkbox"></td>
-
-</tr><tr class="attendance-row">
-  <th scope="row">2</th>
-  <td>ARUN</td>
-  <td>FSD</td>
-  <td>10-4</td>
-  <td><input type="checkbox" name="attendance1" class="attendance-checkbox"></td>
-  <td><input type="checkbox" name="attendance2" class="attendance-checkbox"></td>
-  <td><input type="checkbox" name="attendance3" class="attendance-checkbox"></td>
-
-</tr><tr class="attendance-row">
-  <th scope="row">2</th>
-  <td>ARUN</td>
-  <td>FSD</td>
-  <td>10-4</td>
-  <td><input type="checkbox" name="attendance1" class="attendance-checkbox"></td>
-  <td><input type="checkbox" name="attendance2" class="attendance-checkbox"></td>
-  <td><input type="checkbox" name="attendance3" class="attendance-checkbox"></td>
-
-</tr><tr class="attendance-row">
-  <th scope="row">2</th>
-  <td>ARUN</td>
-  <td>FSD</td>
-  <td>10-4</td>
-  <td><input type="checkbox" name="attendance1" class="attendance-checkbox"></td>
-  <td><input type="checkbox" name="attendance2" class="attendance-checkbox"></td>
-  <td><input type="checkbox" name="attendance3" class="attendance-checkbox"></td>
-
 </tr>
+
 
 </tbody>
 </table>
@@ -419,7 +385,10 @@ h3{
 
 
 </div><br><br>
-<button class="button-26" role="button" onclick="submitAttendance()">SUBMIT</button>
+<div style="display: flex; margin-left:24%;">
+<a href="./report.html"><button class="button-26" role="button">REPORT</button></a>
+<button class="button-26" role="button" onclick="submitAttendance()" style="margin-left: 65%;">SUBMIT</button>
+</div>
   <br><br><br><br>
 
   <div class="site-footer">
