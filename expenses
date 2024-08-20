@@ -41,7 +41,10 @@
   #btn
   {
     margin-left: 20px;
+
   }
+
+  
 
 </style>
 </head>
@@ -130,7 +133,7 @@
         <div class="col-12">
           <div class="row justify-content-center">
             <div class="col-lg-6 text-center ">
-              <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100" style="margin-top: 160px;">Add Topics</h1>
+              <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100" style="margin-top: 160px;">EXPENSES</h1>
 
             </div>
           </div>
@@ -153,29 +156,23 @@
 " id="form">
             <div class="row" id="heading">
               <div class="col-12 mb-3">
-                <label for="form1">Student Name</label><br>
-                <label for="" class="px-3" style=" height:55px;width:100%;border-radius: 5px;" ></label>
-              </div>
-             
-              <div class="col-12 mb-3">
-                <label for="form4">Topics</label><br>
-                <input type="text" class="form-control" placeholder="Topics" id="form4">
-              </div>
-              <div class="col-12 mb-3">
-                <label for="form4">Main-Topics</label><br>
-                <input type="text" class="form-control" placeholder="Main-Topics" id="form4">
-              </div>
-              <div class="col-12 mb-3">
-                <label for="form4">Sub-Topics</label><br>
-                <input type="text" class="form-control" placeholder="sub-Topics" id="form4">
-              </div>
-              <div class="col-12 mb-3">
                 <label for="form5">Date</label><br>
                 <input type="date" class="form-control" placeholder="Re-type Password" id="form5">
               </div>
+             
+              <div class="col-12 mb-3">
+                <label for="form4">PURPOSE</label><br>
+                <input type="text" class="form-control" placeholder="Reason" id="form4">
+              </div>
+              <div class="col-12 mb-3">
+                <label for="form4">AMOUNT</label><br>
+                <input type="text" class="form-control" placeholder="Rs." id="form4">
+              </div>
+              
+              
                         
               <div class="col-6 mb-3">
-                <input type="submit" value="Add Successfully" class="btn btn-primary ml-auto" id="btn" style="align-items: center;">
+                <input type="submit" value="Add " class="btn btn-primary ml-auto" id="btn" style="margin-left: 90px;">
             </div>
              
             </div>
